@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>About Hope NGO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<nav class="bg-blue-600 text-white p-4 flex gap-6">
+    <a th:href="@{/}" class="font-bold">Hope NGO</a>
+    <a th:href="@{/about}">About</a>
+    <a th:href="@{/contact}">Contact</a>
+</nav>
+
+<div class="max-w-4xl mx-auto mt-10 bg-white p-6 rounded shadow">
+
+    <h1 class="text-3xl font-bold mb-6">
+        About Hope NGO
+    </h1>
+
+    <h2 class="text-xl font-semibold mb-2">Address</h2>
+
+    <p>
+        Campus Kaai<br>
+        Nijverheidskaai 170<br>
+        1070 Anderlecht
+    </p>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2">
+        Contact Information
+    </h2>
+
+    <p>
+        Email: info@hopengo.org<br>
+        Phone: +32 2 123 45 67
+    </p>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2">
+        Description
+    </h2>
+
+    <p>
+        Hope NGO is a community-focused organization dedicated to supporting
+        local residents through educational programs, volunteer initiatives,
+        and social support activities. We work together with partners and
+        volunteers to create a stronger and more inclusive community.
+    </p>
+
+</div>
+
+<footer class="text-center mt-10 p-4">
+    © 2026 Hope NGO
+</footer>
+
+</body>
+</html>

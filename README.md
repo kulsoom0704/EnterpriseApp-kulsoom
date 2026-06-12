@@ -55,6 +55,10 @@ This project is a prototype website for an NGO based in Anderlecht. The applicat
 * Spring Boot Starter Thymeleaf
 * Spring Boot Validation
 * Maven
+* Spring Boot Starter Mail
+* Mailtrap (for email testing)(## Known Issues
+
+* Mailtrap email delivery was implemented but may require additional SMTP configuration depending on the local environment.)
 
 ## Documentation and Tutorials Used
 

@@ -4,15 +4,26 @@
     <title>Event Details</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
+<body class="min-h-screen"
+      style="
+          background-image: url('/images/background.png');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;">
 
-<nav class="bg-blue-600 text-white p-4 flex gap-6">
-    <a th:href="@{/}" class="font-bold">Hope NGO</a>
-    <a th:href="@{/new}">Contact</a>
-    <a th:href="@{/about}">About</a>
+<nav class="bg-amber-800 text-white p-5 flex gap-8 shadow-lg">
+    <a th:href="@{/}" class="font-bold">HOPE NGO</a>
+    <a th:href="@{/}">Home</a>
+    <a th:href="@{/new}">About</a>
+    <a th:href="@{/about}">Contact</a>
 </nav>
 
-<div class="max-w-3xl mx-auto mt-10 bg-white p-6 rounded shadow">
+<div class="max-w-4xl mx-auto mt-10 p-8
+            bg-white/70
+            backdrop-blur-md
+            rounded-3xl
+            shadow-2xl
+            border border-white/40">
 
     <h1 class="text-3xl font-bold mb-6">Event Details</h1>
 

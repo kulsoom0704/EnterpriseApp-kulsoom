@@ -26,7 +26,7 @@ public class EventController {
 
         model.addAttribute("events",
                 eventRepository.findTop10ByOrderByTimeDesc());
-
+//                eventRepository.findAll());
         return "index";
     }
 
